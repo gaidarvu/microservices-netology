@@ -9,19 +9,19 @@
 
 1. **Kubernetes (K8s)** — основная платформа для оркестрации контейнеров, которая обеспечит:
 
-Поддержку контейнеров (Docker, containerd).
+    Поддержку контейнеров (Docker, containerd).
 
-Обнаружение сервисов через встроенный CoreDNS.
+    Обнаружение сервисов через встроенный CoreDNS.
 
-Маршрутизацию запросов через Ingress Controller.
+    Маршрутизацию запросов через Ingress Controller.
 
-Горизонтальное масштабирование через Horizontal Pod Autoscaler (HPA).
+    Горизонтальное масштабирование через Horizontal Pod Autoscaler (HPA).
 
-Автоматическое масштабирование через Cluster Autoscaler.
+    Автоматическое масштабирование через Cluster Autoscaler.
 
-Разделение ресурсов через Namespaces и Network Policies.
+    Разделение ресурсов через Namespaces и Network Policies.
 
-Управление конфигурациями и секретами через ConfigMaps и Secrets.
+    Управление конфигурациями и секретами через ConfigMaps и Secrets.
 
 2. **Ingress Controller (Traefik или Nginx Ingress)** — позволяет делать сервисы доступными извне.
 3. **Service Mesh (Istio или Linkerd)** — помогает управлять сетевыми взаимодействиями внутри кластера.
